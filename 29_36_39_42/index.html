@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Karla:wght@400;700&family=Noticia+Text&family=Oswald&family=Outfit:wght@400;700&family=Poppins:ital,wght@0,300;0,400;0,700;1,100;1,200;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <title>HOME</title>
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <a href="index.html"><img src="./images/logo.png" alt=""></a>
+            <div class="nav-links" id="NAV">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSES</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACTS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>World's Biggest University</h1>
+        <p>Welcome to Eduford. The esteemed university in all streams, innovationg and nurturing technical minds since 1867.
+           <br> World Renowned for our world class teaching and excellence performance of our graduates in industry.
+        </p>
+        <button class="btn"><a href="">VISIT US TO KNOW MORE</a></button>
+    </div>
+    </div>
+
+    <div class="course">
+        <h1>COURSES WE OFFER</h1>
+        <p>Engineering and Buisness Management studies are our major areas of focus.We also offer various courses on Creative Arts.</p>
+
+        <div class="row">
+            <div class="course-column">
+                <h3>UNDERGRAD COURSES</h3>
+                <p>Bachelor's in Science, Technology, Buisness Management, AI ML, Data Sciece, Fine arts, Ancient History.</p>
+            </div>
+            <div class="course-column">
+                <h3>POSTGRADUATE COURSES</h3>
+                <p>Master's in Science, Technology, Buisness Management, AI ML, Data Sciece, Fine arts, Ancient History, Cloud Computimg, Automation.</p>
+            </div>
+            <div class="course-column">
+                <h3>AFFILIATED COURSES</h3>
+                <p>Online Bachelor's and Master's in Science, Technology, Buisness Management, AI ML, Data Sciece, Fine arts, Ancient History.</p>
+            </div>
+        </div>
+
+    <div class="campus">
+        <h1>OUR GLOBAL CAMPUS</h1>
+        <p>State of the art architecture with simple and serene classrooms. Providing a level of ambience which makes the students feel good as well as productive</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="./images/london.png" alt="">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="./images/newyork.png" alt="">
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="./images/washington.png" alt="">
+                <div class="layer">
+                    <h3>SINGAPORE</h3>
+                </div>
+            </div>
+        </div>
+    </div>   
+    </div>
+
+    <div class="facilities">
+        <h1>Our facilities</h1>
+        <p> State of art labs, library and practical devices. Indoor and Outdoor sports arena. Cafeteria with ample ambience and delicious foods to make sure that the students don't study on an empty stomach </p>
+
+        <div class="row">
+            <div class="facili-column">
+                <img src="./images/library.png" alt="">
+                <h3>World Class Library</h3>
+                <p>From latest books to Technology, this library will fullfil all the needs of the students</p>
+            </div>
+            <div class="facili-column">
+                <img src="./images/basketball.png" alt="">
+                <h3>Indoor Playground</h3>
+                <p>Devloping your body with mind is also essential</p>
+            </div>
+            <div class="facili-column">
+                <img src="./images/cafeteria.png" alt="">
+                <h3>Beautiful Cafeteria</h3>
+                <p>Providing tasty food and a casual and stress-free environment for students</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="testimonials">
+        <h1>What our Students say</h1>
+        <p> A few words from our Students </p>
+
+        <div class="row">
+            <div class="test-col">
+                <img src="./images/user1.jpg" alt="">
+                <div>
+                   <p> I had a unique experience as a first-generation college student. Prior to starting the fall semester, I was able to participate in a 7-week summer bridge program that connected me with students.</p>
+                   <h3>Carolina Heather</h3>
+                </div>
+            </div>
+            <div class="test-col">
+                <img src="./images/user2.jpg" alt="">
+                <div>
+                   <p>  I love attending football, basketball, and hockey games as a member of the Spartan Marching Band. It’s so exciting to be involved in the hype and tradition of Michigan State and B1G sports.</p>
+                   <h3>Lebron James</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cta">
+        <h1>Enroll for Our Courses</h1>
+        <a href="" class="btn">Contact US</a>
+    </div>
+    <script>
+        var NAV = document.getElementById("NAV");
+        function showMenu(){
+            NAV.style.right= "0";
+        }
+
+        function hideMenu(){
+            NAV.style.right= "-200px";
+        }
+    </script>
+</body>
+</html>
